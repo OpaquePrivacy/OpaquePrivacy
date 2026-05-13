@@ -1,0 +1,6 @@
+.github
+examples
+test
+docs
+tsconfig.json
+.gitignore

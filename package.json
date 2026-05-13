@@ -1,0 +1,72 @@
+{
+  "name": "@opaqueprivacy/agent-sdk",
+  "version": "0.1.0",
+  "description": "Private payments SDK for AI agents and autonomous robots. Pay over SMS, BLE, or HTTP — no wallet UI required.",
+  "keywords": [
+    "opaque-privacy",
+    "solana",
+    "ai-agents",
+    "agent-payments",
+    "robotics",
+    "iot",
+    "sms-payments",
+    "zk",
+    "privacy",
+    "x402"
+  ],
+  "homepage": "https://opaqueprivacy.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpaquePrivacy/OpaquePrivacy.git"
+  },
+  "bugs": "https://github.com/OpaquePrivacy/OpaquePrivacy/issues",
+  "license": "MIT",
+  "author": "Opaque Privacy <support@opaqueprivacy.app>",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./transports/http": {
+      "types": "./dist/transports/http.d.ts",
+      "import": "./dist/transports/http.js"
+    },
+    "./transports/sms": {
+      "types": "./dist/transports/sms.d.ts",
+      "import": "./dist/transports/sms.js"
+    },
+    "./transports/ble": {
+      "types": "./dist/transports/ble.d.ts",
+      "import": "./dist/transports/ble.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --experimental-strip-types test/*.test.ts",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "tweetnacl": "^1.0.3",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}

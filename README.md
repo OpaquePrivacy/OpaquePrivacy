@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@opaqueprivacy/agent-sdk"><img alt="npm" src="https://img.shields.io/npm/v/@opaqueprivacy/agent-sdk.svg" /></a>
+  <a href="https://github.com/OpaquePrivacy/OpaquePrivacy/pkgs/npm/agent-sdk"><img alt="version" src="https://img.shields.io/github/package-json/v/OpaquePrivacy/OpaquePrivacy?label=version&color=9945FF" /></a>
   <a href="LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
   <a href="https://solana.com"><img alt="Solana" src="https://img.shields.io/badge/Solana-mainnet-9945FF.svg" /></a>
   <a href="SECURITY.md"><img alt="security" src="https://img.shields.io/badge/security-policy-green.svg" /></a>

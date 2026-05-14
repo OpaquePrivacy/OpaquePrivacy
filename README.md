@@ -1,10 +1,20 @@
-# Opaque Privacy — Agent SDK
+<p align="center">
+  <img src=".github/banner.jpg" alt="Opaque Privacy" width="100%" />
+</p>
 
-**Private payments for AI agents and autonomous machines. Pay over SMS, BLE, or HTTP — no wallet UI required.**
+<h1 align="center">Opaque Privacy — Agent SDK</h1>
 
-[![npm](https://img.shields.io/npm/v/@opaqueprivacy/agent-sdk.svg)](https://www.npmjs.com/package/@opaqueprivacy/agent-sdk)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Solana](https://img.shields.io/badge/Solana-mainnet-9945FF.svg)](https://solana.com)
+<p align="center">
+  <strong>Private payments for AI agents and autonomous machines.<br/>
+  Pay over SMS, BLE, or HTTP — no wallet UI required.</strong>
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@opaqueprivacy/agent-sdk"><img alt="npm" src="https://img.shields.io/npm/v/@opaqueprivacy/agent-sdk.svg" /></a>
+  <a href="LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
+  <a href="https://solana.com"><img alt="Solana" src="https://img.shields.io/badge/Solana-mainnet-9945FF.svg" /></a>
+  <a href="SECURITY.md"><img alt="security" src="https://img.shields.io/badge/security-policy-green.svg" /></a>
+</p>
 
 ---
 

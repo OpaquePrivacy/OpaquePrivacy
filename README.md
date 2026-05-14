@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/banner.jpg" alt="Opaque Privacy" width="100%" />
+  <img src="https://raw.githubusercontent.com/OpaquePrivacy/OpaquePrivacy/main/.github/banner.jpg" alt="Opaque Privacy" width="100%" />
 </p>
 
 <h1 align="center">Opaque Privacy — Agent SDK</h1>

@@ -1,6 +1,6 @@
 {
   "name": "@opaqueprivacy/agent-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Private payments SDK for AI agents and autonomous robots. Pay over SMS, BLE, or HTTP — no wallet UI required.",
   "keywords": [
     "opaque-privacy",
